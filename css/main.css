@@ -57,14 +57,66 @@
   font-style: italic;
 }
 
+
+/* Archia Family */
+
+/* Thin */
+@font-face {
+    font-family: 'Archia';
+    font-weight: 100;
+    font-style: normal;
+    src: url('../fonts/Archia/Archia-Thin.woff') format('woff');
+}
+/* Light */
+@font-face {
+    font-family: 'Archia';
+    font-weight: 300;
+    font-style: normal;
+    src: url('../fonts/Archia/Archia-Light.woff') format('woff');
+}
+/* Regular */
+@font-face {
+    font-family: 'Archia';
+    font-weight: 400;
+    font-style: normal;
+    src: url('../fonts/Archia/Archia-Regular.woff') format('woff');
+}
+/* Medium */
+@font-face {
+    font-family: 'Archia';
+    font-weight: 500;
+    font-style: normal;
+    src: url('../fonts/Archia/Archia-Medium.woff') format('woff');
+}
+/* Semi-Bold */
+@font-face {
+    font-family: 'Archia';
+    font-weight: 600;
+    font-style: normal;
+    src: url('../fonts/Archia/Archia-SemiBold.woff') format('woff');
+}
+
+/* Bold */
+@font-face {
+    font-family: 'Archia';
+    font-weight: 700;
+    font-style: normal;
+    src: url('../fonts/Archia/Archia-Bold.woff') format('woff');
+}
+
+
+
 *{
-  font-family: "CircularStd", sans-serif;
-  font-weight: 400;
+  /*font-family: "CircularStd", sans-serif;
+  font-weight: 400; */
+  font-family: "Archia", sans-serif;
+  font-weight: 500;
+
 }
 
 b, .title {
-  font-family: "CircularStd", sans-serif;
-  font-weight: 600;
+  font-family: "Archia", sans-serif;
+  font-weight: 700;
 }
 
 
@@ -430,6 +482,7 @@ html{
   color: var(--black);
   font-smooth: always;
   scroll-behavior: auto;
+  font-weight: 500;
 }
 
 
@@ -1010,8 +1063,8 @@ align-self: center;
     width: 200px;
     z-index: 100;
     position: fixed;
-    top: 200px;
-    bottom: 200px;
+    top: 100px;
+    bottom: 400px;
     left: 0px;
     background-color: #ffffff00;
     transition: opacity .2s ease-in-out;
@@ -1022,6 +1075,7 @@ align-self: center;
   .floating-menu a,
   .floating-menu h3 {
     font-size: 1em;
+    font-weight: 500;
     display: flex;
     margin: 0 0.5em;
     color: var(--middle-grey);
