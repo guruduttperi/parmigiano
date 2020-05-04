@@ -106,15 +106,21 @@
 
 
 
-*{
+*, .subtitle, p a{
   /*font-family: "CircularStd", sans-serif;
   font-weight: 400; */
-  font-family: "Archia", sans-serif;
-  font-weight: 500;
+  font-family: "CircularStd", sans-serif;
+  font-weight: 400;
+  line-height: 1.6em;
 
 }
 
-b, .title {
+b{
+  font-family: "Archia", sans-serif;
+  font-weight: 700;
+}
+
+.title {
   font-family: "Archia", sans-serif;
   font-weight: 700;
 }
@@ -125,7 +131,7 @@ b, .title {
 :root {
   /*Main colors */
   --white: #ffffff;
-  --black: #000000;
+  --black: #363636;
 
 
 /* Accessible */
@@ -482,7 +488,7 @@ html{
   color: var(--black);
   font-smooth: always;
   scroll-behavior: auto;
-  font-weight: 500;
+
 }
 
 
