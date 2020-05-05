@@ -5086,6 +5086,14 @@ a.tag:hover {
   font-size: 1.25rem
 }
 
+.subtitle.is-5point5 {
+  font-size: 1.125rem
+}
+
+.subtitle.is-6point5 {
+  font-size: 1.08rem
+}
+
 .subtitle.is-6 {
   font-size: 1rem
 }

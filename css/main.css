@@ -123,6 +123,7 @@ b{
 .title {
   font-family: "Archia", sans-serif;
   font-weight: 700;
+  line-height: 1.6em;
 }
 
 
@@ -131,7 +132,8 @@ b{
 :root {
   /*Main colors */
   --white: #ffffff;
-  --black: #363636;
+  --neue-black: #000000;
+  --black: #212121;
 
 
 /* Accessible */
@@ -525,7 +527,7 @@ html{
 
 .navbar-burger{
 
-  color: black;
+  color: var(--black);
 }
 
 .nav-stripe {
@@ -538,6 +540,14 @@ background: linear-gradient(to right, var(--lightblue), var(--mesblue));/* W3C, 
 
 .bkg-white{
   background-color: var(--white);
+}
+
+.bkg-bluegrey{
+  /* background-color: rgba(221, 226, 236, 0.49);
+  background-color: #F5F7FA;
+  background-color: #F6F8FE; */
+  background-color: rgb(221, 226, 236);
+
 }
 
 .bkg-transparent{
@@ -1070,9 +1080,8 @@ align-self: center;
     z-index: 100;
     position: fixed;
     top: 100px;
-    bottom: 400px;
     left: 0px;
-    background-color: #ffffff00;
+    background-color: #ffffff;
     transition: opacity .2s ease-in-out;
     border-radius: 2%;
 
@@ -1083,7 +1092,7 @@ align-self: center;
     font-size: 1em;
     font-weight: 500;
     display: flex;
-    margin: 0 0.5em;
+    margin: 0.4em;
     color: var(--middle-grey);
     background-color: #ffffff00;
   }
