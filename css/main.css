@@ -293,6 +293,7 @@ b{
   font-family: "CircularStd", sans-serif;
   font-weight: 600;
   line-height: 1.6em;
+
 }
 
 
@@ -310,14 +311,15 @@ b{
  --azure: #2170F2;
 
 
+
   /* Material Colors - Android 10 */
 --droid-green:#3ddc84;
 --sky-blue:#d7effe;
 --droid-blue:#4285f4;
 --night-grey: #1f2125;
 --mandarin-orange: #f3663c;
---middle-grey: #757575;
-
+/*--middle-grey: #757575; */
+--middle-grey: #525252;
 --hunter-blue:#073042;
 --color-is-7:#eff7cf;
 --color-is-10:#707173;
@@ -354,8 +356,15 @@ b{
   --greek: rgb(190, 219, 213);
 /*  --waggle-yellow: #FFD774; #FFF0CC */
   --waggle-yellow: #FFD77469;
+  --ms-green: rgb(42, 187, 156);
+  --stormy-sky: #B3C1D5;
 
 }
+
+
+/* Gradient */
+ --azure-gradient: linear-gradient(to right, var(--azure), var(--spotifygreen));
+
 
 /* Flex Grid by @joshpuckett */
 .container,
@@ -710,10 +719,7 @@ html{
 
 .nav-stripe {
     height: 5px;
-    background: var(--lightblue);  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, var(--lightblue), var(--mesblue));  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, var(--lightblue), var(--mesblue));/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+    background: linear-gradient(to right, var(--azure), var(--spotifygreen));
 }
 
 .bkg-white{
@@ -741,6 +747,11 @@ background: linear-gradient(to right, var(--lightblue), var(--mesblue));/* W3C, 
 .bkg-pacific-wind{
   background-color: var(--pacific-wind);
 }
+
+.bkg-stormy-sky{
+  background-color: var(--stormy-sky);
+}
+
 
 .bkg-greek{
   background-color: var(--greek);
@@ -857,22 +868,22 @@ color: var(--passionred);
 }
 
 .navbar-menu{
-  background-color: var(--white);
-  color: var(--white);
+  background-color: var(--pacific-wind);
+  color: var(--pacific-wind);
 }
 .navbar-item{
   color: var(--middle-grey);
-  background-color: var(--white);
+  background-color: var(--pacific-wind);
 }
 .is-active{
-      background-color: var(--white);
+      background-color: var(--pacific-wind);
 }
 .navbar-end{
- background-color: var(--white);
+ background-color: var(--pacific-wind);
 }
 
 .navbar-link.is-active, .navbar-link:hover, a.navbar-item.is-active, a.navbar-item:hover{
-  background-color: var(--white);
+  background-color: var(--pacific-wind);
   color: var(--black);
   border-bottom-color: var(--black);
 
