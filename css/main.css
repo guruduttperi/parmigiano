@@ -104,7 +104,176 @@
     src: url('../fonts/Archia/Archia-Bold.woff') format('woff');
 }
 
+/* Orbitron and Telegraph
 
+@font-face {
+    font-family: 'Telegraf';
+    font-weight: 400;
+    font-style: normal;
+    src: url('../fonts/orbit/Telegraf-Regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Orbitron';
+    font-weight: 600;
+    font-style: normal;
+    src: url('../fonts/orbit/Orbitron-Bold.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Orbitron';
+    font-weight: 700;
+    font-style: normal;
+    src: url('../fonts/orbit/Orbitron-Bold.woff2') format('woff2');
+}
+*/
+
+/* Theinhardt*/
+
+@font-face {
+    font-family: 'Theinhardt';
+    font-weight: 400;
+    font-style: normal;
+    src: url('../fonts/orbit/theinhardt-n4.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Atipo';
+    font-weight: 400;
+    font-style: normal;
+    src: url('../fonts/atipo/atipo_regular-webfont.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Atipo';
+    font-weight: 600;
+    font-style: normal;
+    src: url('../fonts/atipo/atipo_bold-webfont.woff') format('woff');
+}
+
+/* Jigsaw */
+
+@font-face {
+    font-family: 'Jigsaw';
+    font-weight: 400;
+    font-style: normal;
+    src: url('../fonts/jigsaw/JigsawSans-Regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Jigsaw';
+    font-weight: 300;
+    font-style: normal;
+    src: url('../fonts/jigsaw/JigsawSans-Light.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Jigsaw';
+    font-weight: 600;
+    font-style: normal;
+    src: url('../fonts/jigsaw/JigsawSans-Medium.woff2') format('woff2');
+}
+
+
+@font-face {
+    font-family: 'Maxx';
+    font-weight: 400;
+    font-style: normal;
+    src: url('../fonts/jigsaw/MaaxRegular.woff2') format('woff2');
+}
+
+
+@font-face {
+    font-family: 'Maxx';
+    font-weight: 600;
+    font-style: normal;
+    src: url('../fonts/jigsaw/MaaxMedium.woff2') format('woff2');
+}
+
+
+@font-face {
+    font-family: 'Moderat';
+    font-weight: 400;
+    font-style: normal;
+    src: url('../fonts/jigsaw/Moderat-Regular..woff2') format('woff2');
+}
+
+
+@font-face {
+    font-family: 'Plaid';
+    font-weight: 600;
+    font-style: normal;
+    src: url('../fonts/jigsaw/Plaid-XL.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Lausanne';
+    font-weight: 400;
+    font-style: normal;
+    src: url('../fonts/jigsaw/Lausanne-300.woff2') format('woff2');
+}
+
+/* Basic Grotesque */
+
+@font-face {
+    font-family: 'SweetSans';
+    font-weight: 400;
+    font-style: normal;
+    src: url('../fonts/neutrif/SweetSans_Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'SweetSans';
+    font-weight: 600;
+    font-style: normal;
+    src: url('../fonts/neutrif/SweetSans_Bold.woff') format('woff');
+}
+
+
+
+@font-face {
+    font-family: 'GoogleSansText';
+    font-weight: 400;
+    font-style: normal;
+    src: url('../fonts/neutrif/GoogleSansText_Regular.woff2') format('woff2');
+}
+
+
+
+@font-face {
+    font-family: 'GoogleSansDisplay';
+    font-weight: 400;
+    font-style: normal;
+    src: url('../fonts/neutrif/GoogleSansDisplay_Regular.woff2') format('woff2');
+}
+
+
+@font-face {
+    font-family: 'GoogleSansDisplay';
+    font-weight: 600;
+    font-style: normal;
+    src: url('../fonts/neutrif/Inter-Bold.woff2') format('woff2');
+}
+
+
+
+@font-face {
+    font-family: 'GoodSans';
+    font-weight: 400;
+    font-style: normal;
+    src: url('../fonts/neutrif/GoodSans-Regular.woff2') format('woff2');
+}
+
+
+@font-face {
+    font-family: 'GoodSans';
+    font-weight: 600;
+    font-style: normal;
+    src: url('../fonts/neutrif/GoodSans-Bold.woff2') format('woff2');
+}
+
+
+/* Text Parameters */
 
 *, .subtitle, p a{
   /*font-family: "CircularStd", sans-serif;
@@ -116,13 +285,13 @@
 }
 
 b{
-  font-family: "Archia", sans-serif;
-  font-weight: 700;
+  font-family: "CircularStd", sans-serif;
+  font-weight: 600;
 }
 
 .title {
-  font-family: "Archia", sans-serif;
-  font-weight: 700;
+  font-family: "CircularStd", sans-serif;
+  font-weight: 600;
   line-height: 1.6em;
 }
 
@@ -132,12 +301,14 @@ b{
 :root {
   /*Main colors */
   --white: #ffffff;
-  --neue-black: #000000;
-  --black: #212121;
+  --neue-black: #212121;
+  --black: #171313;
+  --paperwhite: #fcf9f7;
 
 
 /* Accessible */
  --azure: #2170F2;
+
 
   /* Material Colors - Android 10 */
 --droid-green:#3ddc84;
@@ -177,6 +348,12 @@ b{
   --showkali: rgb(252,71,62);
   --dviz: rgb(47,113,76);
   --nasa-black: #202020;
+  --pacific-wind: #f7f8fc;
+  --apple-grey: #FBFBFD;
+  --bluegrey: #E3E8EE;
+  --greek: rgb(190, 219, 213);
+/*  --waggle-yellow: #FFD774; #FFF0CC */
+  --waggle-yellow: #FFD77469;
 
 }
 
@@ -512,12 +689,13 @@ html{
 .navbar{
   top: 0;
   width: 100%;
-  padding: 2px;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding-top: 12px;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-bottom: 12px;
   color: var(--black);
 
-    z-index: 100;
+     z-index: 100;
     box-shadow: rgba(0, 0, 0, 0.08) 0px 2px 40px 0px;
 }
 
@@ -539,15 +717,33 @@ background: linear-gradient(to right, var(--lightblue), var(--mesblue));/* W3C, 
 }
 
 .bkg-white{
-  background-color: var(--white);
+  background-color: #fff;
+
+}
+
+
+.bkg-paperwhite{
+  background-color: var(--paperwhite);
+
 }
 
 .bkg-bluegrey{
   /* background-color: rgba(221, 226, 236, 0.49);
   background-color: #F5F7FA;
-  background-color: #F6F8FE; */
+  background-color: #F6F8FE;
   background-color: rgb(221, 226, 236);
+  background-color: var(--bluegrey);*/
+  background-color: #B3C1D5;
 
+}
+
+
+.bkg-pacific-wind{
+  background-color: var(--pacific-wind);
+}
+
+.bkg-greek{
+  background-color: var(--greek);
 }
 
 .bkg-transparent{
@@ -556,6 +752,11 @@ background: linear-gradient(to right, var(--lightblue), var(--mesblue));/* W3C, 
 
 .bkg-black{
   background-color: black;
+}
+
+.bkg-spotifygreen{
+  background-color: var(--spotifygreen);
+
 }
 
 .bkg-droid-green{
@@ -624,6 +825,18 @@ background: linear-gradient(to right, var(--lightblue), var(--mesblue));/* W3C, 
   background-color: var(--frost);
 }
 
+.bkg-apple-grey{
+  background-color: var(--apple-grey);
+
+}
+
+
+.bkg-waggle-yellow{
+  background-color: var(--waggle-yellow);
+
+}
+
+
 .bkg-passionred{
   background-color: var(--passionred);
 }
@@ -676,21 +889,24 @@ a.navbar-item:before {
   content: "";
   position: absolute;
   width: 100%;
-  height: 2px;
+  height: 3px;
   bottom: 0;
   left: 0;
-  background-color: #2170F2;
+  background-color: var(--azure);
   visibility: hidden;
-  -webkit-transform: scaleX(0);
+ -webkit-transform: scaleX(0);
   transform: scaleX(0);
   -webkit-transition: all 0.1s linear 0s;
   transition: all 0.1s linear 0s;
+  padding: 0 0 3px;
+
 }
 
 a.navbar-item:hover:before {
   visibility: visible;
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
+
 }
 
 
@@ -712,12 +928,12 @@ a.navbar-item:hover:before {
 }
 
 .cardtextpost{
-  font-size: small;
+  font-size: smaller;
   color: var(--middle-grey);
 }
 
 .cardtextpost-azure{
-  font-size: small;
+  font-size: smaller;
   color: var(--middle-grey);
 }
 
@@ -995,7 +1211,8 @@ align-self: center;
   color: var(--black);
   max-width: 100%;
   position: relative;
-  border-radius: 2%;
+  /* border-radius: 6px*/
+  border-radius: 0px;
 }
 
 
@@ -1026,7 +1243,7 @@ align-self: center;
   margin: 1em auto;
   position: relative;
   cursor: poCircularStd;
-  border-radius: 4px;
+  border-radius: 0px;
 
 }
 
@@ -1037,8 +1254,8 @@ align-self: center;
 
 
 .back-to-top {
-   background-color: #000000;
-   color: #FFFFFF;
+   background-color: var(--bluegrey);
+   color: var(--black);
    opacity: 0;
    transition: opacity .6s ease-in-out;
    z-index: 999;
@@ -1048,7 +1265,7 @@ align-self: center;
    width: 50px;
    height: 50px;
    box-sizing: border-box;
-   border-radius: 50%;
+   border-radius: 0%;
  }
 
  a.back-to-top {
@@ -1063,7 +1280,7 @@ align-self: center;
  }
 
  .back-to-top:hover, .back-to-top:focus, .back-to-top:visited {
-   color: #FFFFFF;
+   color: #000;
 
  }
 
@@ -1079,7 +1296,7 @@ align-self: center;
     width: 200px;
     z-index: 100;
     position: fixed;
-    top: 100px;
+    top: 200px;
     left: 0px;
     background-color: #ffffff;
     transition: opacity .2s ease-in-out;
@@ -1148,7 +1365,8 @@ height: 100%;
 }
 
 mark{
-  background-color: #fff2cc;
+  /* background-color: #fff2cc; */
+  background-color: #d5fce9;
 }
 
 .text-azure{
@@ -1164,6 +1382,10 @@ button.is-static{
   background-color: var(--azure);
 }
 
+.tag{
+  border-radius: 0%;
+}
+
 .tag.bkg-sky{
   background-color: var(--sky-blue);
   color: var(--night-grey);
@@ -1172,4 +1394,9 @@ button.is-static{
 .tag.is-red{
   background-color: var(--passionred);
   color: var(--white);
+}
+
+
+.hr-black{
+    background-color: var(--black);
 }
