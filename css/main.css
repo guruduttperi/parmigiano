@@ -477,18 +477,23 @@ html{
   padding-right: 32px;
   padding-bottom: 12px;
   color: var(--black);
+  background: transparent;
+  backdrop-filter: blur(32px);
 
      z-index: 100;
     box-shadow: rgba(0, 0, 0, 0.08) 0px 2px 40px 0px;
 }
 
 .navbar-brand{
-
+  background: transparent;
+  backdrop-filter: blur(32px);
 }
 
 .navbar-burger{
 
   color: var(--black);
+  background: transparent;
+  backdrop-filter: blur(32px);
 }
 
 .nav-stripe {
@@ -643,24 +648,34 @@ color: var(--passionred);
 }
 
 .navbar-menu{
-  background-color: var(--pacific-wind);
-  color: var(--pacific-wind);
+  /*background-color: var(--pacific-wind);
+  color: var(--pacific-wind);*/
+  background: transparent;
+  backdrop-filter: blur(32px);
 }
 .navbar-item{
   color: var(--middle-grey);
-  background-color: var(--pacific-wind);
+  /*background-color: var(--pacific-wind);*/
+  background: transparent;
+  backdrop-filter: blur(32px);
 }
 .is-active{
-      background-color: var(--pacific-wind);
+    /*  background-color: var(--pacific-wind);*/
+      background: transparent;
+      backdrop-filter: blur(32px);
 }
 .navbar-end{
- background-color: var(--pacific-wind);
+ /*background-color: var(--pacific-wind);*/
+ background: transparent;
+ backdrop-filter: blur(32px);
 }
 
 .navbar-link.is-active, .navbar-link:hover, a.navbar-item.is-active, a.navbar-item:hover{
-  background-color: var(--pacific-wind);
+  /*background-color: var(--pacific-wind);*/
   color: var(--azure);
   border-bottom-color: var(--azure);
+  background: transparent;
+  backdrop-filter: blur(32px);
 
 
 }
@@ -703,7 +718,7 @@ a.navbar-item:hover:before {
   -moz-transition: all 200ms cubic-bezier(.02, .01, .47, 1);
   transition: all 200ms cubic-bezier(.02, .01, .47, 1);
   color: #4B4F56;
-  z-index: 1;
+  z-index: 10;
 
 }
 
@@ -711,6 +726,7 @@ a.navbar-item:hover:before {
   box-shadow: 0 30px 30px rgba(0,0,0,.12);
   transform: translate(0,-5px);
   transition-delay: 0s !important;
+  z-index: 10;
 }
 
 .cardtextpost{
@@ -1040,7 +1056,9 @@ align-self: center;
 
 
 .back-to-top {
-   background-color: var(--bluegrey);
+  /* background-color: var(--bluegrey); */
+   background: transparent;
+   backdrop-filter: blur(32px);
    color: var(--black);
    opacity: 0;
    transition: opacity .6s ease-in-out;
@@ -1084,7 +1102,8 @@ align-self: center;
     position: fixed;
     top: 200px;
     left: 0px;
-    background-color: #ffffff;
+    background: transparent;
+    backdrop-filter: blur(32px);
     transition: opacity .2s ease-in-out;
     border-radius: 2%;
 
@@ -1097,11 +1116,13 @@ align-self: center;
     display: flex;
     margin: 0.4em;
     color: var(--middle-grey);
-    background-color: #ffffff00;
+    background: transparent;
+    backdrop-filter: blur(32px);
   }
 
   .floating-menu a:hover{
-    background-color: #ffffff00;
+    background: transparent;
+    backdrop-filter: blur(32px);
   }
 
 
@@ -1173,7 +1194,7 @@ button.is-static{
 }
 
 .tag.bkg-sky{
-  background-color: var(--sky-blue); 
+  background-color: var(--sky-blue);
   color: var(--black);
 }
 
@@ -1185,4 +1206,18 @@ button.is-static{
 
 .hr-black{
     background-color: var(--black);
+}
+
+.message.is-frost {
+  background-color: #ffffff;
+}
+
+.message.is-frost .message-header {
+  background-color: var(--frost);
+  color: var(--black)
+}
+
+.message.is-frost .message-body {
+  border-color: var(--frost);
+  color: var(--black)
 }

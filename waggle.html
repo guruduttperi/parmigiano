@@ -88,7 +88,7 @@
 <body data-gr-c-s-loaded="true" data-aos-easing="ease" data-aos-duration="12" data-aos-delay="0" class="portfolio">
 
   <!--<a href="#" id="back-to-top" class="back-to-top" style="display: inline;">↑</a> -->
-  <nav class="navbar bkg-pacific-wind ">
+  <nav class="navbar is-transparent " id = "cs_top">
     <div class="container">
       <div class="navbar-brand">
         <a class="navbar-item is-1" href="index.html" id="logo">
@@ -116,7 +116,7 @@
   <nav class="floating-menu is-hidden-touch bkg-transparent">
 
     <a class="navbar-item is-active bkg-transparent " href="#logo" style="pointer-events: none; cursor: default;">
-         <b>Project Navigation</b>
+         <b style = "color: var(--black);">Project Navigation</b>
        </a>
     <a class="navbar-item bkg-transparent" href="#cs_problem">
            Problem
@@ -142,6 +142,10 @@
     <a class="navbar-item bkg-transparent " href="#cs_future">
            Takeaways
          </a>
+       </a>
+  <a class="navbar-item bkg-transparent " href="#cs_top">
+         Back to Top &nbsp; ↑
+       </a>
 
   </nav>
 
@@ -167,7 +171,7 @@ background-repeat: no-repeat;"> -->
 
       <div class="columns is-centered">
         <div class="column is-8">
-          <figure class="image">
+          <figure class="image post">
 <br>
             <img src="images/waggle/waggle_header.png" class=" img-boxshadow">
 
@@ -226,12 +230,20 @@ background-repeat: no-repeat;"> -->
   </h1>
           <h2 class="subtitle is-5point5" style="text-align: left; color: var(--black);">
   <br>Graduate students at Georgia Tech face difficulties in finding an assistantship position on the campus. These highly coveted assistantship positions <mark>allow students to work in academic research projects or teach classes</mark>. In addition to this, they <mark>offer financial assistance (up to 75% reduction in tuition fees) and added benefits.</mark>
-  <br><br>Currently, finding Graduate Research Assistantships (GRA) and Graduate Teaching Assistantships (GTA) is often an arduous and tedious process with high chances of unpredictability and failure. Our problem statement is defined as:
-  </h2>
+  <br><br>Currently, finding Graduate Research Assistantships (GRA) and Graduate Teaching Assistantships (GTA) is often an arduous and tedious process with high chances of unpredictability and failure. <br> </h2>
 
-<h2 class="title is-5" style="text-align: left; color: var(--black);">
-<br>  “How might we simplify the process of finding graduate assistantships at Georgia Tech?” 
-</h2>
+
+<article class="message is-frost post">
+  <div class="message-header">
+    <h1 class="title is-5point5 " style="text-align: left; color: var(--black);">Problem Statement</h1>
+    <!--<button class="delete" aria-label="delete"></button> -->
+  </div>
+  <div class="message-body">
+    <h2 class="subtitle is-5point5" style="text-align: left; color: var(--black);">
+    “How might we simplify the process of finding graduate assistantships at Georgia Tech?” 
+  </h2>
+    </div>
+</article>
 
           <h2 class="subtitle is-5point5" style="text-align: left; color: var(--black);">
   <br>We want to make it easier for Graduate students to acquire assistantship positions (GRA and GTA) on the campus. As of now, the process of searching for these positions, applying for them and then successfully getting one appears to be extremely tedious and hard. Currently, students have to go through a lot of <mark>cold emailing, setting up appointments and meetings with professors and facing rejections for acquiring a GTA or GRA position.</mark> </h2>
