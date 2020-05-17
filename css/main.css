@@ -648,30 +648,30 @@ color: var(--passionred);
 }
 
 .navbar-menu{
-  /*background-color: var(--pacific-wind);
-  color: var(--pacific-wind);*/
+  background-color: var(--pacific-wind);
+  color: var(--pacific-wind);
   background: transparent;
   backdrop-filter: blur(32px);
 }
 .navbar-item{
   color: var(--middle-grey);
-  /*background-color: var(--pacific-wind);*/
+  background-color: var(--pacific-wind);
   background: transparent;
   backdrop-filter: blur(32px);
 }
 .is-active{
-    /*  background-color: var(--pacific-wind);*/
+      background-color: var(--pacific-wind);
       background: transparent;
       backdrop-filter: blur(32px);
 }
 .navbar-end{
- /*background-color: var(--pacific-wind);*/
+ background-color: var(--pacific-wind);
  background: transparent;
  backdrop-filter: blur(32px);
 }
 
 .navbar-link.is-active, .navbar-link:hover, a.navbar-item.is-active, a.navbar-item:hover{
-  /*background-color: var(--pacific-wind);*/
+  background-color: var(--pacific-wind);
   color: var(--azure);
   border-bottom-color: var(--azure);
   background: transparent;
@@ -1056,9 +1056,7 @@ align-self: center;
 
 
 .back-to-top {
-  /* background-color: var(--bluegrey); */
-   background: transparent;
-   backdrop-filter: blur(32px);
+   background-color: var(--bluegrey);
    color: var(--black);
    opacity: 0;
    transition: opacity .6s ease-in-out;
@@ -1102,8 +1100,7 @@ align-self: center;
     position: fixed;
     top: 200px;
     left: 0px;
-    background: transparent;
-    backdrop-filter: blur(32px);
+    background-color: #ffffff;
     transition: opacity .2s ease-in-out;
     border-radius: 2%;
 
@@ -1116,13 +1113,11 @@ align-self: center;
     display: flex;
     margin: 0.4em;
     color: var(--middle-grey);
-    background: transparent;
-    backdrop-filter: blur(32px);
+    background-color: #ffffff00;
   }
 
   .floating-menu a:hover{
-    background: transparent;
-    backdrop-filter: blur(32px);
+    background-color: #ffffff00;
   }
 
 
