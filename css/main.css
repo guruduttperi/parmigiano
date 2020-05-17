@@ -1,298 +1,71 @@
 
-/* CircularStd @font-face kit */
-@font-face {
-  font-family: 'CircularStd';
-  src: url('../fonts/CircularStd-Black.eot');
-  src: url('../fonts/CircularStd-Black.eot?#iefix') format('embedded-opentype'), url('../fonts/CircularStd-Black.woff') format('woff'), url('../fonts/CircularStd-Black.ttf') format('truetype'), url('../fonts/CircularStd-Black.svg#bcc26993292869431e54c666aafa8fcd') format('svg');
-  font-weight: 800;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'CircularStd';
-  src: url('../fonts/CircularStd-BlackItalic.eot');
-  src: url('../fonts/CircularStd-BlackItalic.eot?#iefix') format('embedded-opentype'), url('../fonts/CircularStd-BlackItalic.woff') format('woff'), url('../fonts/CircularStd-BlackItalic.ttf') format('truetype'), url('../fonts/CircularStd-BlackItalic.svg#bcc26993292869431e54c666aafa8fcd') format('svg');
-  font-weight: 800;
-  font-style: italic;
-}
-@font-face {
-  font-family: 'CircularStd';
-  src: url('../fonts/CircularStd-Bold.eot');
-  src: url('../fonts/CircularStd-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/CircularStd-Bold.woff') format('woff'), url('../fonts/CircularStd-Bold.ttf') format('truetype'), url('../fonts/CircularStd-Bold.svg#bcc26993292869431e54c666aafa8fcd') format('svg');
-  font-weight: 600;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'CircularStd';
-  src: url('../fonts/CircularStd-BoldItalic.eot');
-  src: url('../fonts/CircularStd-BoldItalic.eot?#iefix') format('embedded-opentype'), url('../fonts/CircularStd-BoldItalic.woff') format('woff'), url('../fonts/CircularStd-BoldItalic.ttf') format('truetype'), url('../fonts/CircularStd-BoldItalic.svg#bcc26993292869431e54c666aafa8fcd') format('svg');
-  font-weight: 600;
-  font-style: italic;
-}
-@font-face {
-  font-family: 'CircularStd';
-  src: url('../fonts/CircularStd-Medium.eot');
-  src: url('../fonts/CircularStd-Medium.eot?#iefix') format('embedded-opentype'), url('../fonts/CircularStd-Medium.woff') format('woff'), url('../fonts/CircularStd-Medium.ttf') format('truetype'), url('../fonts/CircularStd-Medium.svg#bcc26993292869431e54c666aafa8fcd') format('svg');
-  font-weight: 500;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'CircularStd';
-  src: url('../fonts/CircularStd-MediumItalic.eot');
-  src: url('../fonts/CircularStd-MediumItalic.eot?#iefix') format('embedded-opentype'), url('../fonts/CircularStd-MediumItalic.woff') format('woff'), url('../fonts/CircularStd-MediumItalic.ttf') format('truetype'), url('../fonts/CircularStd-MediumItalic.svg#bcc26993292869431e54c666aafa8fcd') format('svg');
-  font-weight: 500;
-  font-style: italic;
-}
-@font-face {
-  font-family: 'CircularStd';
-  src: url('../fonts/CircularStd-Book.eot');
-  src: url('../fonts/CircularStd-Book.eot?#iefix') format('embedded-opentype'), url('../fonts/CircularStd-Book.woff') format('woff'), url('../fonts/CircularStd-Book.ttf') format('truetype'), url('../fonts/CircularStd-Book.svg#bcc26993292869431e54c666aafa8fcd') format('svg');
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'CircularStd';
-  src: url('../fonts/CircularStd-BookItalic.eot');
-  src: url('../fonts/CircularStd-BookItalic.eot?#iefix') format('embedded-opentype'), url('../fonts/CircularStd-BookItalic.woff') format('woff'), url('../fonts/CircularStd-BookItalic.ttf') format('truetype'), url('../fonts/CircularStd-BookItalic.svg#bcc26993292869431e54c666aafa8fcd') format('svg');
-  font-weight: 400;
-  font-style: italic;
-}
+/* Archia @font-face kit */
 
-
-/* Archia Family */
-
-/* Thin */
 @font-face {
-    font-family: 'Archia';
-    font-weight: 100;
+    font-family: 'archiathin';
+    src: url('../fonts/archia/archia-thin-webfont.woff2') format('woff2'),
+         url('../fonts/archia/archia-thin-webfont.woff') format('woff');
+    font-weight: normal;
     font-style: normal;
-    src: url('../fonts/Archia/Archia-Thin.woff') format('woff');
-}
-/* Light */
-@font-face {
-    font-family: 'Archia';
-    font-weight: 300;
-    font-style: normal;
-    src: url('../fonts/Archia/Archia-Light.woff') format('woff');
-}
-/* Regular */
-@font-face {
-    font-family: 'Archia';
-    font-weight: 400;
-    font-style: normal;
-    src: url('../fonts/Archia/Archia-Regular.woff') format('woff');
-}
-/* Medium */
-@font-face {
-    font-family: 'Archia';
-    font-weight: 500;
-    font-style: normal;
-    src: url('../fonts/Archia/Archia-Medium.woff') format('woff');
-}
-/* Semi-Bold */
-@font-face {
-    font-family: 'Archia';
-    font-weight: 600;
-    font-style: normal;
-    src: url('../fonts/Archia/Archia-SemiBold.woff') format('woff');
-}
-
-/* Bold */
-@font-face {
-    font-family: 'Archia';
-    font-weight: 700;
-    font-style: normal;
-    src: url('../fonts/Archia/Archia-Bold.woff') format('woff');
-}
-
-/* Orbitron and Telegraph
-
-@font-face {
-    font-family: 'Telegraf';
-    font-weight: 400;
-    font-style: normal;
-    src: url('../fonts/orbit/Telegraf-Regular.woff2') format('woff2');
 }
 
 @font-face {
-    font-family: 'Orbitron';
-    font-weight: 600;
+    font-family: 'archialight';
+    src: url('../fonts/archia/archia-light-webfont.woff2') format('woff2'),
+         url('../fonts/archia/archia-light-webfont.woff') format('woff');
+    font-weight: normal;
     font-style: normal;
-    src: url('../fonts/orbit/Orbitron-Bold.woff2') format('woff2');
 }
 
 @font-face {
-    font-family: 'Orbitron';
-    font-weight: 700;
+    font-family: 'archiaregular';
+    src: url('../fonts/archia/archia-regular-webfont.woff2') format('woff2'),
+         url('../fonts/archia/archia-regular-webfont.woff') format('woff');
+    font-weight: normal;
     font-style: normal;
-    src: url('../fonts/orbit/Orbitron-Bold.woff2') format('woff2');
-}
-*/
-
-/* Theinhardt*/
-
-@font-face {
-    font-family: 'Theinhardt';
-    font-weight: 400;
-    font-style: normal;
-    src: url('../fonts/orbit/theinhardt-n4.woff') format('woff');
 }
 
 @font-face {
-    font-family: 'Atipo';
-    font-weight: 400;
+    font-family: 'archiamedium';
+    src: url('../fonts/archia/archia-medium-webfont.woff2') format('woff2'),
+         url('../fonts/archia/archia-medium-webfont.woff') format('woff');
+    font-weight: normal;
     font-style: normal;
-    src: url('../fonts/atipo/atipo_regular-webfont.woff') format('woff');
 }
 
 @font-face {
-    font-family: 'Atipo';
-    font-weight: 600;
+    font-family: 'archiasemibold';
+    src: url('../fonts/archia/archia-semibold-webfont.woff2') format('woff2'),
+         url('../fonts/archia/archia-semibold-webfont.woff') format('woff');
+    font-weight: normal;
     font-style: normal;
-    src: url('../fonts/atipo/atipo_bold-webfont.woff') format('woff');
-}
-
-/* Jigsaw */
-
-@font-face {
-    font-family: 'Jigsaw';
-    font-weight: 400;
-    font-style: normal;
-    src: url('../fonts/jigsaw/JigsawSans-Regular.woff2') format('woff2');
 }
 
 @font-face {
-    font-family: 'Jigsaw';
-    font-weight: 300;
+    font-family: 'archiabold';
+    src: url('../fonts/archia/archia-bold-webfont.woff2') format('woff2'),
+         url('../fonts/archia/archia-bold-webfont.woff') format('woff');
+    font-weight: normal;
     font-style: normal;
-    src: url('../fonts/jigsaw/JigsawSans-Light.woff2') format('woff2');
 }
-
-@font-face {
-    font-family: 'Jigsaw';
-    font-weight: 600;
-    font-style: normal;
-    src: url('../fonts/jigsaw/JigsawSans-Medium.woff2') format('woff2');
-}
-
-
-@font-face {
-    font-family: 'Maxx';
-    font-weight: 400;
-    font-style: normal;
-    src: url('../fonts/jigsaw/MaaxRegular.woff2') format('woff2');
-}
-
-
-@font-face {
-    font-family: 'Maxx';
-    font-weight: 600;
-    font-style: normal;
-    src: url('../fonts/jigsaw/MaaxMedium.woff2') format('woff2');
-}
-
-
-@font-face {
-    font-family: 'Moderat';
-    font-weight: 400;
-    font-style: normal;
-    src: url('../fonts/jigsaw/Moderat-Regular..woff2') format('woff2');
-}
-
-
-@font-face {
-    font-family: 'Plaid';
-    font-weight: 600;
-    font-style: normal;
-    src: url('../fonts/jigsaw/Plaid-XL.woff2') format('woff2');
-}
-
-@font-face {
-    font-family: 'Lausanne';
-    font-weight: 400;
-    font-style: normal;
-    src: url('../fonts/jigsaw/Lausanne-300.woff2') format('woff2');
-}
-
-/* Basic Grotesque */
-
-@font-face {
-    font-family: 'SweetSans';
-    font-weight: 400;
-    font-style: normal;
-    src: url('../fonts/neutrif/SweetSans_Regular.woff') format('woff');
-}
-
-@font-face {
-    font-family: 'SweetSans';
-    font-weight: 600;
-    font-style: normal;
-    src: url('../fonts/neutrif/SweetSans_Bold.woff') format('woff');
-}
-
-
-
-@font-face {
-    font-family: 'GoogleSansText';
-    font-weight: 400;
-    font-style: normal;
-    src: url('../fonts/neutrif/GoogleSansText_Regular.woff2') format('woff2');
-}
-
-
-
-@font-face {
-    font-family: 'GoogleSansDisplay';
-    font-weight: 400;
-    font-style: normal;
-    src: url('../fonts/neutrif/GoogleSansDisplay_Regular.woff2') format('woff2');
-}
-
-
-@font-face {
-    font-family: 'GoogleSansDisplay';
-    font-weight: 600;
-    font-style: normal;
-    src: url('../fonts/neutrif/Inter-Bold.woff2') format('woff2');
-}
-
-
-
-@font-face {
-    font-family: 'GoodSans';
-    font-weight: 400;
-    font-style: normal;
-    src: url('../fonts/neutrif/GoodSans-Regular.woff2') format('woff2');
-}
-
-
-@font-face {
-    font-family: 'GoodSans';
-    font-weight: 600;
-    font-style: normal;
-    src: url('../fonts/neutrif/GoodSans-Bold.woff2') format('woff2');
-}
-
 
 /* Text Parameters */
 
 *, .subtitle, p a{
   /*font-family: "CircularStd", sans-serif;
   font-weight: 400; */
-  font-family: "CircularStd", sans-serif;
-  font-weight: 400;
-  line-height: 1.6em;
+  font-family: "archiamedium", sans-serif;
+  line-height: 1.8em;
 
 }
 
 b{
-  font-family: "CircularStd", sans-serif;
-  font-weight: 600;
+  font-family: "archiabold", sans-serif;
 }
 
 .title {
-  font-family: "CircularStd", sans-serif;
-  font-weight: 600;
-  line-height: 1.6em;
+  font-family: "archiabold", sans-serif;
+  line-height: 1.8em;
 
 }
 
@@ -307,8 +80,9 @@ b{
   --paperwhite: #fcf9f7;
 
 
-/* Accessible */
- --azure: #2170F2;
+/* Accessible
+ --azure: #2170F2;*/
+ --azure: #002EF4;
 
 
 
@@ -719,7 +493,8 @@ html{
 
 .nav-stripe {
     height: 5px;
-    background: linear-gradient(to right, var(--azure), var(--spotifygreen));
+    background: linear-gradient(to right, var(--azure), var(--droid-green));
+
 }
 
 .bkg-white{
@@ -884,8 +659,8 @@ color: var(--passionred);
 
 .navbar-link.is-active, .navbar-link:hover, a.navbar-item.is-active, a.navbar-item:hover{
   background-color: var(--pacific-wind);
-  color: var(--black);
-  border-bottom-color: var(--black);
+  color: var(--azure);
+  border-bottom-color: var(--azure);
 
 
 }
@@ -1398,8 +1173,8 @@ button.is-static{
 }
 
 .tag.bkg-sky{
-  background-color: var(--sky-blue);
-  color: var(--night-grey);
+  background-color: var(--sky-blue); 
+  color: var(--black);
 }
 
 .tag.is-red{
