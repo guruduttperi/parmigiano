@@ -648,30 +648,30 @@ color: var(--passionred);
 }
 
 .navbar-menu{
-  background-color: var(--pacific-wind);
-  color: var(--pacific-wind);
+  background-color: var(--white);
+  color: var(--white);
   background: transparent;
   backdrop-filter: blur(32px);
 }
 .navbar-item{
   color: var(--middle-grey);
-  background-color: var(--pacific-wind);
+  background-color: var(--white);
   background: transparent;
   backdrop-filter: blur(32px);
 }
 .is-active{
-      background-color: var(--pacific-wind);
+      background-color: var(--white);
       background: transparent;
       backdrop-filter: blur(32px);
 }
 .navbar-end{
- background-color: var(--pacific-wind);
+ background-color: var(--white);
  background: transparent;
  backdrop-filter: blur(32px);
 }
 
 .navbar-link.is-active, .navbar-link:hover, a.navbar-item.is-active, a.navbar-item:hover{
-  background-color: var(--pacific-wind);
+  background-color: var(--white);
   color: var(--azure);
   border-bottom-color: var(--azure);
   background: transparent;
@@ -1014,7 +1014,7 @@ align-self: center;
   max-width: 100%;
   position: relative;
   /* border-radius: 6px*/
-  border-radius: 0px;
+  border-radius: 10px;
 }
 
 
@@ -1067,7 +1067,7 @@ align-self: center;
    width: 50px;
    height: 50px;
    box-sizing: border-box;
-   border-radius: 0%;
+   border-radius: 100%;
  }
 
  a.back-to-top {
@@ -1102,7 +1102,7 @@ align-self: center;
     left: 0px;
     background-color: #ffffff;
     transition: opacity .2s ease-in-out;
-    border-radius: 2%;
+    border-radius: 10px;
 
   }
 
@@ -1124,12 +1124,12 @@ align-self: center;
 
 
 .img-top-rounded{
-  border-top-left-radius: 2%;
-  border-top-right-radius: 2%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 
 .img-rounded{
-  border-radius: 2%;
+  border-radius: 10px;
 }
 
 .img-boxshadow{
@@ -1185,12 +1185,14 @@ button.is-static{
 }
 
 .tag{
-  border-radius: 0%;
+  border-radius: 10px;
 }
 
 .tag.bkg-sky{
   background-color: var(--sky-blue);
   color: var(--black);
+  border-radius: 6px;
+
 }
 
 .tag.is-red{

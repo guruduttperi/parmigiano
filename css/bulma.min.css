@@ -5652,7 +5652,7 @@ a.list-item {
 
 .message {
   background-color: #ffffff;
-  border-radius: 0px;
+  border-radius: 10px;
 }
 
 .message strong {
@@ -5826,7 +5826,8 @@ a.list-item {
   justify-content: space-between;
   line-height: 1.25;
   padding: .75em 1em;
-  position: relative
+  position: relative;
+  border-radius: 10px 10px 0 0;
 }
 
 .message-header .delete {
