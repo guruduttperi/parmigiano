@@ -56,6 +56,7 @@
   font-weight: 400; */
   font-family: "archiamedium", sans-serif;
   line-height: 1.8em;
+  letter-spacing: 0rem;
 
 }
 
@@ -66,6 +67,7 @@ b{
 .title {
   font-family: "archiabold", sans-serif;
   line-height: 1.8em;
+  letter-spacing: 0rem;
 
 }
 
@@ -81,8 +83,10 @@ b{
 
 
 /* Accessible
- --azure: #2170F2;*/
- --azure: #002EF4;
+ --azure: #2170F2;
+ --azure: #002EF4; */
+ --azure: #0065FF;
+
 
 
 
@@ -132,6 +136,7 @@ b{
   --waggle-yellow: #FFD77469;
   --ms-green: rgb(42, 187, 156);
   --stormy-sky: #B3C1D5;
+  --material-dark: #121212;
 
 }
 
@@ -472,10 +477,10 @@ html{
 .navbar{
   top: 0;
   width: 100%;
-  padding-top: 12px;
+  padding-top: 8px;
   padding-left: 32px;
   padding-right: 32px;
-  padding-bottom: 12px;
+  padding-bottom: 8px;
   color: var(--black);
   background: transparent;
   backdrop-filter: blur(32px);
@@ -498,7 +503,8 @@ html{
 
 .nav-stripe {
     height: 5px;
-    background: linear-gradient(to right, var(--azure), var(--droid-green));
+    /*background: linear-gradient(to right, var(--azure), var(--droid-green));*/
+    background: var(--azure);
 
 }
 
@@ -552,6 +558,11 @@ html{
 
 .bkg-droid-green{
   background-color: var(--droid-green);
+
+}
+
+.bkg-material-dark{
+  background-color: var(--material-dark);
 
 }
 
@@ -701,6 +712,8 @@ a.navbar-item:before {
   transition: all 0.1s linear 0s;
   padding: 0 0 3px;
 
+
+
 }
 
 a.navbar-item:hover:before {
@@ -723,6 +736,13 @@ a.navbar-item:hover:before {
 }
 
 .post:hover {
+  box-shadow: 0 30px 30px rgba(0,0,0,.12);
+  transform: translate(0,-5px);
+  transition-delay: 0s !important;
+  z-index: 10;
+}
+
+.post-activated{
   box-shadow: 0 30px 30px rgba(0,0,0,.12);
   transform: translate(0,-5px);
   transition-delay: 0s !important;
@@ -1096,22 +1116,24 @@ align-self: center;
     background: transparent;
     padding: 5px;
     width: 200px;
-    z-index: 100;
     position: fixed;
     top: 200px;
-    left: 0px;
+    right: 0px;
     background-color: #ffffff;
     transition: opacity .2s ease-in-out;
     border-radius: 8px;
+
+         z-index: 100;
+        box-shadow: rgba(0, 0, 0, 0.08) 0px 2px 40px 0px;
 
   }
 
   .floating-menu a,
   .floating-menu h3 {
     font-size: 1em;
-    font-weight: 500;
+    font-weight: 400;
     display: flex;
-    margin: 0.4em;
+    margin: 0.1em;
     color: var(--middle-grey);
     background-color: #ffffff00;
   }
