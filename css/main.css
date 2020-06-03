@@ -1315,7 +1315,12 @@ button.is-static{
 
 .message.is-frost .message-header {
   background-color: var(--frost);
-  color: var(--black)
+  color: var(--black);
+}
+
+.message.is-droid-green .message-header {
+  background-color: var(--droid-green);
+  color: var(--black);
 }
 
 .message.is-frost .message-body {
