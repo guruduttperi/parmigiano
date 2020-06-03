@@ -805,6 +805,17 @@ a.navbar-item:hover:before {
 
 .post-activated{
   box-shadow: 0 30px 30px rgba(0,0,0,.12);
+  border-radius: 8px;
+  transform: translate(0,-5px);
+  transition-delay: 0s !important;
+  z-index: 10;
+
+}
+
+
+.image-activated{
+  box-shadow: 0 30px 30px rgba(0,0,0,.12);
+  border-radius: 8px;
   transform: translate(0,-5px);
   transition-delay: 0s !important;
   z-index: 10;
@@ -1184,9 +1195,8 @@ align-self: center;
     background-color: #ffffff;
     transition: opacity .2s ease-in-out;
     border-radius: 8px;
-
-         z-index: 100;
-        box-shadow: rgba(0, 0, 0, 0.08) 0px 2px 40px 0px;
+    z-index: 100;
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 2px 40px 0px;
 
   }
 
