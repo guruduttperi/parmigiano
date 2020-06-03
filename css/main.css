@@ -111,9 +111,9 @@
 
 *, .subtitle, p a{
   /*font-family: "CircularStd", sans-serif;
-  font-weight: 400; */
+   */
   font-family: "CircularStd", sans-serif;
-
+  font-weight: 400;
   line-height: 1.78em;
   letter-spacing: 0rem;
 
@@ -193,11 +193,12 @@ b{
   --apple-grey: #FBFBFD;
   --bluegrey: #E3E8EE;
   --greek: rgb(190, 219, 213);
-/*  --waggle-yellow: #FFD774; #FFF0CC */
-  --waggle-yellow: #FFD77469;
+/*  --waggle-yellow: #FFD774;  #FFCA43 */
+  --waggle-yellow: #FFD774;
   --ms-green: rgb(42, 187, 156);
   --stormy-sky: #B3C1D5;
   --material-dark: #121212;
+  --waggle-yellow-bkg: #FFF0CC;
 
 }
 
@@ -695,7 +696,7 @@ html{
 
 
 .bkg-waggle-yellow{
-  background-color: var(--waggle-yellow);
+  background-color: var(--waggle-yellow-bkg);
 
 }
 
@@ -916,6 +917,7 @@ a.navbar-item:hover:before {
 .feature-box {
 align-self: center;
 }
+
 
 .image-box {
 
@@ -1175,7 +1177,7 @@ align-self: center;
     font-family: sans-serif;
     background: transparent;
     padding: 5px;
-    width: 160px;
+    width: 180px;
     position: fixed;
     top: 200px;
     right: 0px;
@@ -1274,6 +1276,14 @@ button.is-static{
 
 .tag.bkg-sky{
   background-color: var(--sky-blue);
+  color: var(--black);
+  border-radius: 6px;
+
+}
+
+
+.tag.bkg-waggle{
+  background-color: var(--waggle-yellow);
   color: var(--black);
   border-radius: 6px;
 
